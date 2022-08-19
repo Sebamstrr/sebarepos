@@ -6,7 +6,7 @@ function muestraInformaciónContacto() {
 /*
 diagrama en t 
 Variables  |  Valores
-auntContactInfo = ["Paula", "Smith", "Calle Principal 1234", "St. Louis", "MO", 12345]
+auntContactInfo  ["Paula", "Smith", "Calle Principal 1234", "St. Louis", "MO", 12345]
 
 */
 
@@ -22,7 +22,7 @@ diagrama en t
 variable | valores
 produce  ["manzanas", "naranjas"];
 frozen  ["brócoli", "helado"]
-frozen.push  ["brócoli", "helado","croqueta de papa"]
+frozen  ["brócoli", "helado","croqueta de papa"]
 
 */
 
@@ -36,7 +36,7 @@ console.log(movieLibrary);
 diagrama en t 
 variable | valores 
 movieLibrary  ["Bambi", "E.T.", "Toy Story"]
-movieLibrary.push  ["Bambi", "E.T.", "Toy Story", "Zoro"]
-movieLibrary[1]  ["Bambi", "Beetlejuice", "Toy Story", "Zoro"]
+movieLibrary  ["Bambi", "E.T.", "Toy Story", "Zoro"]
+movieLibrary  ["Bambi", "Beetlejuice", "Toy Story", "Zoro"]
 
 */
