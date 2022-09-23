@@ -26,9 +26,24 @@
 				topValue = topValue + 10;
 				img = "down"
     		}
-			else if (e.keyCode == 38) { // up
+			else if (e.keyCode == 38) { // UP
 				topValue = topValue - 10;
-				img = "up"
+    		}
+
+			if(e.keyCode == 65) { // LEFT
+    			leftValue = leftValue - 10;
+				img = "left"
+    		}
+    		else if (e.keyCode == 68) { // RIGHT
+    			leftValue = leftValue + 10; 
+				img = "right"   		
+    		}
+    		else if (e.keyCode == 83) { // DOWN
+				topValue = topValue + 10;
+				img = "down"
+    		}
+			else if (e.keyCode == 87) { // UP
+				topValue = topValue - 10;
     		}
     		// ...
     		update();
@@ -36,3 +51,5 @@
     </script>
 </body>
 </html>
+
+
