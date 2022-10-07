@@ -1,0 +1,35 @@
+
+h1 {
+    color: rgb(0, 253, 34);
+    font-size: 50px;
+    text-align: center
+}
+p {
+    text-align: center;
+    color: yellow;
+}
+
+body{
+background-color: blue;
+}
+
+.is-centered {
+    text-align: center;
+}
+.is-red {
+    color: red;
+}
+
+
+#game {
+    width: 320px;
+    height: 240px;
+    overflow: hidden;
+    background: linear-gradient(#1293f5, #bae8ff 80%, #35b236 80%);
+}
+#player {
+    margin-top: 140px;
+    margin-left: 50px;
+}
+/* No te preocupes por saber cuáles son todas estas propiedades todavía */
+/* volveremos a ellas más tarde, ¡lo prometemos! */
